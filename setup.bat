@@ -1,3 +1,13 @@
+@echo off
+
+
+:start
+cls
+
+set python_ver=38
+
+cd \
+cd \python%python_ver%\Scripts\
 pip install asyncio
 pip install black
 pip install bs4
@@ -36,3 +46,4 @@ pip install undetected-chromedriver
 pip install wheel
 
 pause
+exit
