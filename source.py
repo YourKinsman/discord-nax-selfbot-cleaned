@@ -19,7 +19,6 @@ from bs4 import BeautifulSoup as bs4
 from os import system
 import ctypes
 ctypes.windll.kernel32.SetConsoleTitleW("Project Nax")
-import aiohttp
 import colorama
 import discord
 import numpy
